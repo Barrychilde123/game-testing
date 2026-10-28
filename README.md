@@ -92,7 +92,7 @@ allure generate reports/ui/allure-results -o reports/ui/allure-report --clean
 
 ### 📱 移动端 (320px/375px) 兼容性适配
 通过 Chrome DevTools 模拟移动端视口，验证页面无横向溢出、方块完整显示，确保移动端可玩性。
-<img width="30%" alt="game-mobile" src="https://github.com/user-attachments/assets/d2733c58-5997-4560-b34f-92e538311b82" />
+<img width="40%" alt="game-mobile" src="https://github.com/user-attachments/assets/d2733c58-5997-4560-b34f-92e538311b82" />
 
 
 ### 📊 UI 自动化测试报告 (Allure)
