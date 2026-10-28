@@ -92,15 +92,13 @@ allure generate reports/ui/allure-results -o reports/ui/allure-report --clean
 
 ### 📱 移动端 (320px/375px) 兼容性适配
 通过 Chrome DevTools 模拟移动端视口，验证页面无横向溢出、方块完整显示，确保移动端可玩性。
-<div align="center">
-  <!-- 把 game-mobile.png 拖到这里，然后把 width 改成 30% -->
-</div>
+<img width="45%" alt="game-mobile" src="https://github.com/user-attachments/assets/d2733c58-5997-4560-b34f-92e538311b82" />
+
 
 ### 📊 UI 自动化测试报告 (Allure)
 基于 Selenium + Pytest 执行 21 个 UI 自动化用例，100% 全部通过。验证了四个方向合并、胜负判定等核心逻辑。
-<p align="center">
-  <!-- 把 allure-report.png 拖到这里，然后把 width 改成 80% -->
-</p>
+<img width="45%" alt="allure-report" src="https://github.com/user-attachments/assets/292cc9a5-6e7c-4648-9d72-89b4bf250fed" />
+
 
 ## 6. 测试亮点
 
