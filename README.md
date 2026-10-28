@@ -50,7 +50,8 @@ game-testing/
 │   └── 04-test-report.md
 ├── scripts/generate_test_cases.py
 ├── reports/ui/             # Allure 结果与 HTML 报告
-└── screenshots/            # 游戏与报告截图
+├── screenshots/            # 游戏与报告截图
+└── 启动-游戏测试.bat       # Windows 一键启动
 ```
 
 ## 4. 快速开始
@@ -59,6 +60,16 @@ game-testing/
 python -m http.server 8001 --bind 127.0.0.1
 # 浏览器打开 http://127.0.0.1:8001
 ```
+
+### Windows 一键启动
+
+双击项目根目录的 `启动-游戏测试.bat`：
+
+- 自动打开静态服务窗口和默认浏览器；
+- 地址：http://127.0.0.1:8001
+- 关闭服务窗口即可停止。
+
+> `.bat` 仅适用于 Windows；macOS / Linux 请使用上面的命令。
 
 运行自动化测试：
 
