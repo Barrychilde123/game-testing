@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>2048 · 游戏测试靶场</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <main class="app">
+    <header class="topbar">
+      <div class="brand">
+        <h1>2048</h1>
+        <p>游戏测试靶场</p>
+      </div>
+      <div class="scores">
+        <div class="score-box">
+          <span>得分</span>
+          <strong data-testid="score">0</strong>
+        </div>
+        <div class="score-box">
+          <span>最高分</span>
+          <strong data-testid="best">0</strong>
+        </div>
+      </div>
+    </header>
+
+    <div class="toolbar">
+      <p>合并相同数字，挑战 <b>2048</b></p>
+      <button class="btn btn-primary" data-testid="new-game" type="button">新游戏</button>
+    </div>
+
+    <div class="board-wrap">
+      <div class="board" data-testid="board" aria-label="2048 棋盘"></div>
+      <div class="overlay hidden" data-testid="overlay">
+        <div class="overlay-card">
+          <h2 data-testid="overlay-title"></h2>
+          <p data-testid="overlay-text"></p>
+          <div class="overlay-actions">
+            <button class="btn btn-primary" data-testid="continue" type="button">继续游戏</button>
+            <button class="btn btn-secondary" data-testid="retry" type="button">再来一局</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="hint">方向键 / WASD 移动 · 手机支持滑动</div>
+    <div class="meta">Game Testing Lab · 数据仅保存在本地</div>
+  </main>
+  <script src="js/game.js"></script>
+</body>
+</html>
