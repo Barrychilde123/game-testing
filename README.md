@@ -81,19 +81,25 @@ allure generate reports/ui/allure-results -o reports/ui/allure-report --clean
 > 依赖：Selenium 4、Pytest、Allure、Microsoft Edge。  
 > 页面支持 `?seed=42` 固定随机种子；`window.__game` 提供测试钩子（setBoard/move/getState），用于确定性断言。
 
-## 5. 截图
+## 5. 截图与测试成果展示
 
+### 🎮 核心功能与状态展示
+验证游戏正常流转、合并计分逻辑以及胜负判定。通过自动化脚本驱动，确保界面渲染无异常。
 <p align="center">
-  <img src="screenshots/initial.png" width="46%">
-  <img src="screenshots/game-midgame.png" width="46%">
+  <img width="45%" alt="game-midgame" src="https://github.com/user-attachments/assets/c29a8f30-c0af-4035-a45d-57fea52efef1" />
+  <img width="45%" alt="win" src="https://github.com/user-attachments/assets/8854b069-a9f8-4b6c-83de-b0abc20fba47" />
 </p>
+
+### 📱 移动端 (320px/375px) 兼容性适配
+通过 Chrome DevTools 模拟移动端视口，验证页面无横向溢出、方块完整显示，确保移动端可玩性。
 <p align="center">
-  <img src="screenshots/win.png" width="46%">
-  <img src="screenshots/game-over.png" width="46%">
+  <!-- 把 game-mobile.png 拖到这里，然后把 width 改成 30% -->
 </p>
+
+### 📊 UI 自动化测试报告 (Allure)
+基于 Selenium + Pytest 执行 21 个 UI 自动化用例，100% 全部通过。验证了四个方向合并、胜负判定等核心逻辑。
 <p align="center">
-  <img src="screenshots/game-mobile.png" width="30%">
-  <img src="screenshots/allure-report.png" width="60%">
+  <!-- 把 allure-report.png 拖到这里，然后把 width 改成 80% -->
 </p>
 
 ## 6. 测试亮点
