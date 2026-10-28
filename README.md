@@ -85,10 +85,10 @@ allure generate reports/ui/allure-results -o reports/ui/allure-report --clean
 
 ### 🎮 核心功能与状态展示
 验证游戏正常流转、合并计分逻辑以及胜负判定。通过自动化脚本驱动，确保界面渲染无异常。
-<div align="center">
+<p align="center">
   <img width="45%" alt="game-midgame" src="https://github.com/user-attachments/assets/c29a8f30-c0af-4035-a45d-57fea52efef1" />
   <img width="45%" alt="win" src="https://github.com/user-attachments/assets/8854b069-a9f8-4b6c-83de-b0abc20fba47" />
-</div>
+</p>
 
 ### 📱 移动端 (320px/375px) 兼容性适配
 通过 Chrome DevTools 模拟移动端视口，验证页面无横向溢出、方块完整显示，确保移动端可玩性。
