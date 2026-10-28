@@ -102,7 +102,6 @@
 ## 8. 复现方式
 
 ```bash
-cd game-testing
 python -m http.server 8001 --bind 127.0.0.1
 
 python -m pytest tests -v --alluredir=reports/ui/allure-results

@@ -56,7 +56,6 @@ game-testing/
 ## 4. 快速开始
 
 ```bash
-cd game-testing
 python -m http.server 8001 --bind 127.0.0.1
 # 浏览器打开 http://127.0.0.1:8001
 ```
